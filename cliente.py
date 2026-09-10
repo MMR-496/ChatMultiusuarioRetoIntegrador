@@ -51,7 +51,7 @@ hilo.start()
 # Enviar mensajes
 while True:
 
-    mensaje = input()
+    mensaje = input(">")
 
     # Comando para salir
     if mensaje.lower() == "/salir":
